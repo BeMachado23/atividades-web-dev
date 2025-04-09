@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.9;
+    color: aliceblue;
+    background-image: url('https://preview.redd.it/rsg1ogtm8cqb1.png?auto=webp&s=788835f0a0b90e513950ff13f99a960a3d90992c');
+    background-repeat: no-repeat;
+}   
+header{
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+    background-color: rgb(8, 8, 37);
+    color: aliceblue;
+}
+nav{
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #a8a8a8;
+}
+#block1{
+    line-height: 5;
+    margin-left: 30rem;
+    text-align: center;
+    background-color: rgb(17, 38, 56);
+    margin-top: 1rem;
+    margin-right: 30rem;
+    border-radius: 0.5rem;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+select, input, textarea{
+    display: flex;
+    width: 23rem;
+    text-align: center;
+}
+button{
+    display: flex;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(23, 10, 82);
+    border-radius: 23rem;
+    color:aliceblue
+}
+button:hover{
+    color:#a8a8a8;
+    transform: scale(1.05);
+    
+}
+#block2{
+    display: flex;
+    margin-top: 3rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+#block2 iframe{
+    margin-top: 1.6rem;
+}
+
+
+

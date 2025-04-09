@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome criativo aqui</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 align="center">Assuntos totalmente sérios</h1>
+    <nav>
+        <a href="#bloco1">Bloco 1</a>
+        <a href="#bloco2">Bloco 2</a>
+    </nav>
+    </header>
+    <main>
+        <section id="bloco1">
+            <p align="center">Preencha o formulário adequadamente.</p>
+            <form action="" method="POST">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"required>
+
+                <label for="email">Email:</label>
+                <input type="email" placeholder="exemple@gmail.com" id="email" name="email"required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <label for="data">Data de Nascimento:</label>
+                <input type="date" id="data" name="data" required>
+
+                <label for="numero">Número de Telefone:</label>
+                <input type="tel" id="numero" name="numero" pattern="[0-9]{11}" placeholder="99 999999999">
+
+                <label for="cor">Cor Favorita:</label>
+                <input type="color" id="cor" name="cor">
+
+                <label for="arquivo">Enviar Arquivo:</label>
+                <input type="file" id="arquivo" name="arquivo">
+
+                <label for="nivel">Nível de Satisfação:</label>
+                <input type="range" id="nivel" name="nivel" min="0" max="100">
+
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="">Selecione um estado</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </select>
+
+                <label for="comentario">Comentários:</label>
+                <textarea id="comentario" name="comentario" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea>
+
+                <div>
+                    <input type="submit" value="Salvar">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </section>
+        <section id="bloco2">
+            <label for="imagem1">Primeira Imagem:</label>
+            <img id="imagem1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW2dieHyraAwjFxVhfN68cl9CmX1MQ-3nOPg&s" alt="Eu">
+
+            <label for="imagem2">Segunda Imagem:</label>
+            <img id="imagem2" src="https://blog.explorersclub.com.br/wp-content/uploads/2024/06/Quem-e-Venom-Blog-Banner.webp" alt="EU">
+
+            <label for="video1">Vídeo:</label>
+            <iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/OI5N7JO8GnE?si=PCOKuwcKn5Ypyt9y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <label for="audio1">Áudio:</label>
+            <audio id="audio1" controls>
+                <source src="exemplo.mp3" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </section>
+    </main>
+</body>
+</html>

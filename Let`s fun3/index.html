@@ -6,6 +6,7 @@
     <title>Employment Hero</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Abel&display=swap">
     <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <body>
     <header>
@@ -45,22 +46,29 @@
     
     <section id="recursos">
         <h2>Recursos. Tudo para Você.</h2>
-        <div id="div1">
-            <img src="/Let`s fun3/img/remoteworking.png" alt="">
-            <h3>Um Guia Para Seu Primeiro Trabalho Remoto</h3>
-            <p>Á medida que o mundo continua mudando podemos esperar ver o crescimento da abordagem remota ao trabalho</p>
-            <button class="leia-mais">Leia mais</button>
-        </div>
-        <div id="div2">
-            <h3>Empregador Remoto um Guia Definitivo</h3>
-            <p>A medida que a tercerização se torna mais popular, uma agencia de pessoal terceirizada é outra avenida para explorar</p>
-            <button class="leia-mais">Leia mais</button>
-        </div>
-        <div id="div3">
-            <h3>Politica de Trabalho Remoto e modelo de contrato de funcionário</h3>
-            <p>A sua organização está permitindo trabalho remoto? Baixa o modelo de política e o contrato de funcionário aqui.</p>
-            <button class="leia-mais">Leia mais</button>
-        </div>
+        <article id="grid1">
+            <div id="div1">
+                <div class="imagem-recorte">
+                    <img src="/Let`s fun3/img/remoteworking.png" alt="">
+                </div>
+                <h3>Um Guia Para Seu Primeiro Trabalho Remoto</h3>
+                <p>Á medida que o mundo continua mudando podemos esperar ver o crescimento da abordagem remota ao trabalho</p>
+                <div class="leia-mais-container"><button class="leia-mais">Leia mais<i class="fi fi-rr-arrow-small-right"></i></button></div>
+            </div>
+            <div id="div2">
+                <div class="div2-texto">
+                    <h3>Empregador Remoto, um Guia Definitivo</h3>
+                    <p>A medida que a tercerização se torna mais popular, uma agencia de pessoal terceirizada é outra avenida para explorar</p>
+                    <button class="leia-mais">Leia mais<i class="fi fi-rr-arrow-small-right"></i></button>
+                </div>
+                <img src="/Let`s fun3/img/photo-1556742502-ec7c0e9f34b1.jpeg" alt="">
+            </div>
+            <div id="div3">
+                <h3>Politica de Trabalho Remoto e modelo de contrato de funcionário</h3>
+                <p>A sua organização está permitindo trabalho remoto? Baixa o modelo de política e o contrato de funcionário aqui.</p>
+                <button class="leia-mais">Leia mais<i class="fi fi-rr-arrow-small-right"></i></button>
+            </div>
+        </article>
         <button id="rec-btn1">Mais Recursos</button>
     </section>
 
@@ -70,12 +78,12 @@
         <button>Fale Conosco</button>
     </section>
     <footer>
-        <div>
+        <div class="div-contatos">
             <h5>Contatos</h5>
             <p>email@gmail.com</p>
             <p>(48)98954-8374</p>
         </div>
-        <div class="redes-sociais">
+        <div class="div-redes-sociais">
             <h5>Redes Sociais</h5>
             <div class="rede-social-item">
                 <img src="/Let`s fun3/img/facebook.png" alt="Facebook"> 
@@ -98,8 +106,8 @@
                 <p>YouTube</p>
             </div>
         </div>
-        <p id="direitos">Todos os direitos reservados © 2024</p>
     </footer>
+    <p id="direitos">Todos os direitos reservados © 2024</p>
 
 </body>
 </html>

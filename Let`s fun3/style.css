@@ -1,20 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body{
     font-family: 'Abel', sans-serif;
-    
 }
+
+html{
+    scroll-behavior: smooth; 
+}
+
 header{
     display: flex;
-    font-family: 'Abel', sans-serif;
     align-items: center;
     justify-content: space-around;
     font-size: 1.1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
 header img{
     margin-right: 2.5rem;
 }
@@ -25,9 +31,10 @@ nav img{
     margin-left: 0.4rem;
     vertical-align: middle;
 }
+
 nav a{
     text-decoration: none;
-    color:black
+    color:black;
 }
 
 #home{
@@ -35,24 +42,259 @@ nav a{
     background-color: #CAFAD9;
     align-items: center;
 }
+
 #home div{
-    align-items: center;
-    justify-content: center;
     margin-left: 15rem;
 }
+
 h1{
     font-size: 5rem;
     width: 50%;
     font-weight: normal;
 }
+
 #home div p{
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 2rem;
     width: 50%;
     margin-top: 1rem;
-    font-size: 2rem;
 }
+
+#home-btn1, #home-btn2 {
+    border-radius: 5rem;
+    padding: 0.9rem 2rem;
+    cursor:pointer;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+}
+
 #home-btn1{
+    background-color: #7622D7;
+    color: rgb(212, 210, 210);
+    border: none;
+}
+
+#home-btn2{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+#home img {
+    max-width: 40%;
+    margin-right: 10rem;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 5rem;
+    width: 75rem;
+    word-break:break-word;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+#seta{
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+#medalhas{
+    background-color: #F7F8F7;
+    padding-bottom: 10rem;
+}
+
+#medalhas div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+
+#medal{
+    width: 15rem;
+    height: auto;
+}
+
+#recursos{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    max-width: 62.8rem;
+    margin: 3rem auto;
+}
+
+#div1, #div2, #div3 {
+    padding: 2rem;
+}
+
+#div1{
+    background-color: #F7F8F7;
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    
+}
+
+#div1 img{
+    width: 30rem;
+    height: auto;
+    padding-top: 0;
+    border-radius: 10px;
+}
+.imagem-recorte{
+    height: 30rem; 
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+#div1 h3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+#div1 p{
+    font-size: 1.2rem;
+    padding-left: 2rem;
+}
+
+#div2{
+    background-color: #FFE3EA;
+    text-align: start;
+    display: flex;
+    flex-direction: row;
+}
+
+#div2 p{
+    width: 15rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
+}
+
+#div2 h3{
+    width: 15rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#div2 .leia-mais{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.div2-texto{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+#div2 img{
+  width: 15rem;
+  height: 30rem;
+}
+
+#div3{
+    background-color: #85b0ff;
+}
+
+#div3 h3{
+    padding-left: 2rem;
+    width: 15rem;
+    padding-top: 2rem;
+}
+
+#div3 p{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+#div3 .leia-mais{
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+h3{
+    width: 30rem;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.leia-mais{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    text-align: left;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.2rem;
+    font-size: 1.1rem;
+    color: black;
+    padding: 0;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.leia-mais i {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin-left: 0.2rem;
+    margin-top: 0.4rem;
+}
+
+#rec-btn1{
+    background-color: transparent;
+    color: black;
+    border-radius: 5rem;
+    padding: 1.5rem 4rem;
+    cursor:pointer;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+
+i{
+    font-size: 1rem;
+}
+.leia-mais-container{
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    height: 20vh;
+}
+#contrate{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #CAFAD9;
+    padding: 1rem;
+
+}
+#contrate p{
+    font-size: 1.2rem;
+
+}
+#contrate button{
     background-color: #7622D7;
     color: rgb(212, 210, 210);
     border: none;
@@ -64,77 +306,39 @@ h1{
     margin-right: 2rem;
     margin-bottom: 3rem;
 }
-#home-btn2{
-    background-color: transparent;
-    color: black;
-    border-radius: 5rem;
-    padding: 0.9rem 2rem;
-    cursor:pointer;
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    margin-right: 2rem;
-    margin-bottom: 3rem;
-}
-#home img {
-    max-width: 40%;
-    display: block;
-    margin-right: 10rem;
-}
-h2{
-    font-size: 3rem;
-    font-weight: normal;
-    text-align: center;
-    margin-top: 4rem;
-    width: 75rem;
-    word-break:break-all;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 1.5;
-}
-#seta{
-    width: 2rem;
-    height: 2rem;
-    margin-bottom: 1.5rem;
-}
-#medalhas div{
+footer{
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 10rem;
+    padding: 2rem;
     margin-top: 3rem;
-    gap: 2rem
 }
-#medal{
-    width: 15rem;
-    height: auto;
+.div-contatos{
+    text-align: left;
 }
-#div1{
-    margin-left: 30rem;
-    margin-top: 3rem;
-
-}
-#div1 h3{
+h5{
     font-size: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: normal;
-    width: 23rem;
+
 
 }
-#div1 img{
-    width: 20rem;
-    height: auto;
-    margin-left: 2rem;
-}
-#div1 p{
-    font-size: 1rem;
-    width: 24rem;
-    margin-top: 1rem;
-}
-.leia-mais{
-    border: none;
-    background-color: transparent;
-    margin-top: 4rem;
-    cursor: pointer;
-}
-#div2{
-    display:flex;
+.div-redes-sociais{
+    margin-bottom: 1rem;
     
+}
+.rede-social-item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+.rede-social-item img{
+    width: 1rem;
+    height: 1rem
+}
+#direitos{
+    text-align: center;
+    color: #9F9E9E;
+    bottom: 1rem;
+    font-size: 0.9rem;
 }

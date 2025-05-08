@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    justify-items: center; 
+    justify-content: center;  
+    align-items: center;
+    text-align: center;       
+    height: 100vh;
+  }
+  .mainContent p{
+    font-size: 3rem;
+    cursor: pointer;
+  }
+.btnChanger{
+    margin-top: 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(92, 140, 185);
+    color: black;
+    font-weight:700;
+    cursor: pointer;
+}
+.btnBackColor{
+    background-color: green;
+}
+.classManipulation{
+    display: flex;
+    margin-top: 2rem;
+
+}
+.changeColor{
+    color: yellow;
+}
+.changeWeight{
+    font-weight: bold;
+}
+.elementManipulation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.inputInsert{
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 40vh;
+    text-align: center;
+}
+
+  

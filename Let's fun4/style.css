@@ -14,7 +14,10 @@
   }
   .mainContent p{
     font-size: 3rem;
+  }
+  #paragrafoQueMuda{
     cursor: pointer;
+    margin-top: 5rem;
   }
 .btnChanger{
     margin-top: 1rem;
@@ -51,5 +54,70 @@
     width: 40vh;
     text-align: center;
 }
+.removeElement{
+    margin-top: 1rem;
+}
+.removeElement li{
+    font-size: 5rem;
+    cursor: pointer;
+}
+.dynamicElements{
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+#cores{
+    margin-left: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-size: 1.5rem;
+}
+.simpleAnimation{
+    margin-top: 2rem;
+}
+.animatedButton{
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+#babyImg{
+    position: relative;
+}
+validForm {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+form {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.formGroup {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.formGroup label {
+    width: 10rem; /* iguala largura das labels */
+    text-align: right;
+}
+
+.formGroup input {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+}
+.erroMessage{
+    color: red;
+    cursor: none;
+}
+.submitBtn{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
   
